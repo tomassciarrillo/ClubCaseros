@@ -143,14 +143,27 @@ html {
   align-items: center;
 }
 
+.boton, .boton-rojo, .boton-aliceblue {
+  padding: 6px;
+  border-radius: 1px;
+  text-decoration: none;
+}
+
+/*.boton-aliceblue{
+    background-color: $ColorCasiBlanco;
+    border: black solid 1px;
+    padding: 4px 7px 4px 7px;
+    border-radius: 1px;
+    margin-bottom: 30px;
+    color: rgb(53, 78, 145);
+    text-decoration: none;
+}*/
 .boton-aliceblue {
   background-color: aliceblue;
   border: black solid 1px;
   padding: 4px 7px 4px 7px;
-  border-radius: 1px;
   margin-bottom: 30px;
   color: rgb(53, 78, 145);
-  text-decoration: none;
 }
 
 .boton-aliceblue:hover {
@@ -393,13 +406,19 @@ html {
   color: aliceblue;
 }
 
+/*.boton-rojo{
+    background-color:  $ColorRojo;
+    padding: 6px;
+    color: $ColorCasiBlanco;
+    border: $ColorRojo;
+    border-radius: 1px;
+    text-decoration: none;
+}
+*/
 .boton-rojo {
   background-color: rgb(171, 73, 73);
-  padding: 6px;
   color: aliceblue;
   border: rgb(171, 73, 73);
-  border-radius: 1px;
-  text-decoration: none;
 }
 
 .boton-rojo:hover {
