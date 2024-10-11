@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividades | CSDC</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <meta name="description"
+        content="Conoce todas las actividades deportivas y recreativas que ofrece el CLUB SOCIAL Y DEPORTIVO CASEROS.
+         Participa en fútbol, boxeo, futsal femenino, gimnasio y mucho más. Actividades para todas las edades y niveles de habilidad. ¡Únete a la acción!">
+    <meta name="keywords" content="futsal femenino caseros futsal Caseros, babyfutbol Caseros, Gimnasio caseros, boxeo caseros, jiu-jitsu boxeo, Club Social y Deportivo Caseros">
+    <link rel="stylesheet" href="../css/styles.css">
     <link rel="icon" href="../imagenes/escudo-caseros.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,6 +19,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=PT+Sans&display=swap"
         rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -55,7 +60,7 @@
     <main class="main-actividades">
         <h1 class="titulo-main">Nuestras actividades</h1>
         <div class="contenedor-actividades">
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <img src="../imagenes/futsal.jpg" alt="futsal" class="card-actividades-imagen">
                 <div class="card-texto">
                     <h2 class="titulo-card">Futsal</h2>
@@ -64,7 +69,7 @@
                         a la alegría del juego.Todos son bienvenidos a unirse a nuestra familia futbolística.</p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <img src="../imagenes/baby.jpg" alt="Baby-Fútbol" class="card-actividades-imagen">
                 <div class="card-texto">
                     <h2 class="titulo-card">Baby-Fútbol</h2>
@@ -72,7 +77,7 @@
                         Un espacio donde los más pequeños aprenden, crecen y se divierten jugando al fútbol.</p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <img src="../imagenes/patin.jpg" alt="Patin" class="card-actividades-imagen">
                 <div class="card-texto">
                     <h2 class="titulo-card">Patín Artístico </h2>
@@ -80,7 +85,7 @@
                         Descubre la emoción del patinaje en un ambiente acogedor y amigable. </p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <img src="../imagenes/boxeo.jpg" alt="Boxeo" class="card-actividades-imagen">
                 <div class="card-texto">
                     <h2 class="titulo-card">Boxeo</h2>
@@ -88,7 +93,7 @@
                         boxeadores de todos los niveles mejoren sus habilidades y se mantengan en forma.</p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <img src="../imagenes/jitsu.jpg" alt="Jiu Jitsu" class="card-actividades-imagen">
                 <div class="card-texto">
                     <h2 class="titulo-card">Jiu-Jitsu</h2>
@@ -96,7 +101,7 @@
                         donde la mente y el cuerpo se fusionan en una danza de habilidad y estrategia!</p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" data-aos="fade-up">
                 <img src="../imagenes/gimnasio.png" alt="Gimanio" class="card-actividades-imagen">
                 <div class="card-texto">
                     <h2 class="titulo-card">Gimnasio</h2>
@@ -105,7 +110,7 @@
                 </div>
             </div>
         </div>
-    <main>
+        <main>
             <footer id="footer">
                 <div id="grilla-footer">
                     <div id="item-footer-uno">
@@ -139,10 +144,16 @@
                     </div>
                 </div>
             </footer>
+
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
                 crossorigin="anonymous">
                 </script>
+
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+            </script>
 </body>
 
 </html>
