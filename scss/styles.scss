@@ -378,7 +378,7 @@ html {
 }
 
 .grilla-contacto-dos{
-    padding-top: 20px;
+    padding-top: 80px;
     margin-bottom: 80px;
     padding-left: 5%;
 }
@@ -388,22 +388,41 @@ html {
 }
 
 .titulo-grilla-contacto{
-    color: rgb(58, 136, 220);
+    color: $ColorRojo;
     margin-bottom: 30px;
 }
 
 .boton-contacto{
-    background-color: rgb(58, 136, 220);
+    background-color: $ColorRojo;
     padding: 5px 15px 5px 15px;
-    border: rgb(58, 136, 220);
+    border: $ColorRojo;
     border-radius: 3px;
     color: $ColorCasiBlanco;
 }
 
 .boton-contacto:hover{
-    background-color: rgb(50, 124, 202);
+    background-color: rgb(190, 73, 73);
 }
 
+.contenedor-mapa-contacto{
+    width: 100%;
+}
+
+.titulo-ubicacion{
+    @extend .titulo-grilla-contacto;
+    padding-top: 80px;
+}
+
+.contenedor-ubicacion{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    gap: 1%;
+}
+
+.ubicacion-imagen{
+    height: 20px;
+}
 
 
 /*FOOTER*/
@@ -435,15 +454,6 @@ html {
     color: $ColorCasiBlanco;
 }
 
-/*.boton-rojo{
-    background-color:  $ColorRojo;
-    padding: 6px;
-    color: $ColorCasiBlanco;
-    border: $ColorRojo;
-    border-radius: 1px;
-    text-decoration: none;
-}
-*/
 
 .boton-rojo{
     @extend .boton;
