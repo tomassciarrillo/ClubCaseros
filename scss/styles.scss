@@ -72,6 +72,7 @@ html {
     font-size: 20px;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 /*MAIN -----> INICIO*/
@@ -241,6 +242,36 @@ html {
     border: 2px black solid;
 }
 
+#grilla-nosotros{
+    display: grid;
+    grid-template-columns: 50% 30%;
+    grid-template-rows: 1(auto);
+    justify-content: center;
+    column-gap: 30px;
+    margin-top: 150px;
+}
+
+.contenedor-nosotros-futsal{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.imagen-grilla-nosotros{
+    width: 90%;
+    height: 300px;
+    border-radius: 3px;
+}
+
+.titulo-grilla-nosotros{
+    color: $ColorRojo
+}
+
+.contenedor-grilla-nosotros{
+    @extend .contenedor-nosotros;
+    height: 100%;
+}
 
 /*MAIN: NOVEDADES*/
 
@@ -611,5 +642,14 @@ html {
     .grilla-novedades-tres{
         grid-row: 1 / 3;
         grid-column: 2 / 3;
+    }
+
+    #grilla-nosotros{
+        grid-template-columns: auto;
+        grid-template-rows: 340px auto;
+    }
+
+    .imagen-grilla-nosotros{
+        width: 100%;
     }
 }
