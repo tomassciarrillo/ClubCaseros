@@ -580,6 +580,9 @@ html {
   .imagen-grilla-nosotros {
     width: 100%;
   }
+  .contenedor-grilla-nosotros {
+    margin-top: 40px;
+  }
 }
 /* SM */
 @media only screen and (max-width: 576px) {
